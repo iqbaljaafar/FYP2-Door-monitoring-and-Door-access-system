@@ -1,4 +1,4 @@
-package ioio.examples.hello;
+package com.example.doorioio;
 
 import ioio.lib.api.DigitalOutput;
 import ioio.lib.api.exception.ConnectionLostException;
@@ -26,8 +26,8 @@ public class MainActivity extends IOIOActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		button_ = (ToggleButton) findViewById(R.id.button);
+		setContentView(R.layout.mainactivity);
+		button_ = (ToggleButton) findViewById(R.id.button1);
 	}
 
 	/**
